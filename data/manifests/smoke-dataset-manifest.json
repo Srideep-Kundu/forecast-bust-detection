@@ -1,0 +1,300 @@
+{
+  "artifacts": {
+    "parquet": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\processed\\year=2020\\smoke-init=2020-06-01T00-lead=024.parquet",
+    "region_weights": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\weights\\region_weights.parquet"
+  },
+  "coverage": {
+    "sample_initialization_max": "2020-06-01T00:00:00.000000000",
+    "sample_initialization_min": "2020-06-01T00:00:00.000000000",
+    "sample_valid_time_max": "2020-06-02T00:00:00.000000000",
+    "sample_valid_time_min": "2020-06-02T00:00:00.000000000"
+  },
+  "dataset_version": "wb2-ifs-ens-india-v1",
+  "dimensions": {
+    "ens_coverage": [
+      "2018-01-01T00:00:00.000000000",
+      "2022-12-31T12:00:00.000000000"
+    ],
+    "ens_dimensions": {
+      "latitude": 121,
+      "level": 3,
+      "longitude": 240,
+      "number": 50,
+      "prediction_timedelta": 61,
+      "time": 3652
+    },
+    "ens_variables": [
+      "10m_u_component_of_wind",
+      "10m_v_component_of_wind",
+      "10m_wind_speed",
+      "2m_temperature",
+      "geopotential",
+      "mean_sea_level_pressure",
+      "relative_humidity",
+      "specific_humidity",
+      "temperature",
+      "total_precipitation",
+      "total_precipitation_24hr",
+      "total_precipitation_6hr",
+      "u_component_of_wind",
+      "v_component_of_wind",
+      "wind_speed"
+    ],
+    "hres_dimensions": {
+      "latitude": 121,
+      "level": 13,
+      "longitude": 240,
+      "time": 10228
+    },
+    "hres_variables": [
+      "10m_u_component_of_wind",
+      "10m_v_component_of_wind",
+      "10m_wind_speed",
+      "2m_temperature",
+      "geopotential",
+      "mean_sea_level_pressure",
+      "specific_humidity",
+      "surface_pressure",
+      "temperature",
+      "total_precipitation_6hr",
+      "u_component_of_wind",
+      "v_component_of_wind",
+      "vertical_velocity",
+      "wind_speed"
+    ],
+    "india_shape": {
+      "latitude": 21,
+      "longitude": 20
+    },
+    "lead_hours": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72,
+      78,
+      84,
+      90,
+      96,
+      102,
+      108,
+      114,
+      120,
+      126,
+      132,
+      138,
+      144,
+      150,
+      156,
+      162,
+      168,
+      174,
+      180,
+      186,
+      192,
+      198,
+      204,
+      210,
+      216,
+      222,
+      228,
+      234,
+      240,
+      246,
+      252,
+      258,
+      264,
+      270,
+      276,
+      282,
+      288,
+      294,
+      300,
+      306,
+      312,
+      318,
+      324,
+      330,
+      336,
+      342,
+      348,
+      354,
+      360
+    ],
+    "precipitation_24hr_units": "m (inherited from total_precipitation per WeatherBench derived-variable definition)",
+    "pressure_levels_hpa": [
+      500,
+      700,
+      850
+    ]
+  },
+  "generated_at": "2026-09-25T17:03:45.073236+00:00",
+  "geometry_validation_report": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\geometry\\geometry_validation.json",
+  "geometry_validation_report_sha256": "46e578bf7128ef815a450e00fcd5d722fca5694d6ccb632c85e8a882e1e4101e",
+  "grids": [
+    {
+      "alignment": "identity",
+      "artifact_path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\weights\\regridding\\identity-bilinear.json",
+      "artifact_sha256": "64d7a4b017d4e48f192d6f3936e0ba6be35ecbfa81d319fa6daaa0417210a9c5",
+      "requested_method": "bilinear",
+      "source_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+      "target_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+      "tolerance_degrees": 1e-06,
+      "weight_file": null
+    },
+    {
+      "alignment": "identity",
+      "artifact_path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\weights\\regridding\\identity-conservative.json",
+      "artifact_sha256": "de6c52ce0b6f98dbc5a34f83f63a4cc3ff0e31a04a6123be2b0e407b89b994d7",
+      "requested_method": "conservative",
+      "source_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+      "target_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+      "tolerance_degrees": 1e-06,
+      "weight_file": null
+    }
+  ],
+  "hashes": {
+    "geometry_source_files": {
+      "indian_met_zones.v2.dbf": "bfab449c883a3dbf6fa171287a0f1d7d8ddbaa473f26c7b3a951156a82a61c3f",
+      "indian_met_zones.v2.prj": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb",
+      "indian_met_zones.v2.qpj": "1de411dcdeedce3219242306fc29bfa1d7fa08883e4ff6779baf798ec50d1657",
+      "indian_met_zones.v2.shp": "7a3c0c83714f7fea790adb9e91294392f43b0ef5560e9651ed3968cafd1feae4",
+      "indian_met_zones.v2.shx": "89b4c21ef01e0e07db53c6c78b96edd874a065338d42175ef55117dd631e89fc"
+    },
+    "parquet_sha256": "ca8f38fff9abe4f4c05d4d5ae879ad86bca625e64d3364d8c548d0a1fd5c9e00",
+    "region_weights_sha256": "ca88cce915e652857120d6841fb3d28b1579b943a163517ce70aff7424bc278c"
+  },
+  "licensing": {
+    "attribution_required": true,
+    "derived_redistribution": "disabled pending license confirmation",
+    "raw_weatherbench_tigge_redistribution": "disabled"
+  },
+  "redistribution_enabled": false,
+  "region_definition": {
+    "canonical_count": 36,
+    "canonical_geojson": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\geometry\\imd_subdivisions.geojson",
+    "canonical_geojson_sha256": "66836544001bc78194f9c5f5492f4b33c79484011bddfbc2a5d56ca9c9b7deea",
+    "crs": "EPSG:4326",
+    "invalid_source_geometries": [
+      {
+        "id": 34,
+        "reason": "Ring Self-intersection[75.5330937289246 11.7526678340488]",
+        "source_name": "Kerala"
+      },
+      {
+        "id": 36,
+        "reason": "Ring Self-intersection[79.7585852850634 11.8681064665446]",
+        "source_name": "Tamil Nadu & Puducherry"
+      }
+    ],
+    "manifest_version": "imd-36-v1",
+    "overlap_tolerance_km2": 5.0,
+    "repair_operation": "shapely.make_valid",
+    "source_commit": "bba99daee85e9742d205c66af92a651a42cf42cd",
+    "source_count": 36,
+    "topology_overlaps": [
+      {
+        "area_km2": 4.063590557693426,
+        "left_id": 18,
+        "right_id": 15
+      },
+      {
+        "area_km2": 2.5040867078350856e-06,
+        "left_id": 3,
+        "right_id": 2
+      }
+    ]
+  },
+  "row_count": 36,
+  "schema": {
+    "dataset_version": "String",
+    "e_mslp_pa": "Float64",
+    "e_precip_mm": "Float64",
+    "e_temperature_k": "Float64",
+    "e_wind_mps": "Float64",
+    "feature_source_time": "String",
+    "forecast_initialization_time": "String",
+    "lead_day": "Int32",
+    "mslp_gradient_pa_per_km": "Float64",
+    "mslp_mean_pa": "Float64",
+    "mslp_spread_pa": "Float64",
+    "precip24_mean_mm": "Float64",
+    "precip24_spread_mm": "Float64",
+    "region_id": "String",
+    "region_id_semantics": "String",
+    "region_name": "String",
+    "run_to_run_mslp_drift_pa": "Float64",
+    "season_cos": "Float64",
+    "season_sin": "Float64",
+    "thickness500_850_m": "Float64",
+    "u10_mean_mps": "Float64",
+    "u10_spread_mps": "Float64",
+    "v10_mean_mps": "Float64",
+    "v10_spread_mps": "Float64",
+    "valid_time": "String",
+    "vorticity850_s1": "Float64",
+    "wind850_mean_mps": "Float64"
+  },
+  "sources": {
+    "geometry_repository": "https://github.com/India-Meteorological-Department/Indian_met_zones",
+    "ifs_ens": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr",
+    "ifs_hres_t0": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr",
+    "weatherbench_data_guide": "https://weatherbench2.readthedocs.io/en/latest/data-guide.html"
+  },
+  "units": {
+    "e_mslp_pa": "Pa",
+    "e_precip_mm": "mm",
+    "e_temperature_k": "K",
+    "e_wind_mps": "m/s",
+    "mslp_gradient_pa_per_km": "Pa/km",
+    "mslp_mean_pa": "Pa",
+    "mslp_spread_pa": "Pa",
+    "precip24_mean_mm": "mm",
+    "precip24_spread_mm": "mm",
+    "run_to_run_mslp_drift_pa": "Pa",
+    "thickness500_850_m": "m",
+    "u10_mean_mps": "m/s",
+    "u10_spread_mps": "m/s",
+    "v10_mean_mps": "m/s",
+    "v10_spread_mps": "m/s",
+    "vorticity850_s1": "s^-1",
+    "wind850_mean_mps": "m/s"
+  },
+  "variables": [
+    "region_id",
+    "region_name",
+    "mslp_mean_pa",
+    "mslp_spread_pa",
+    "mslp_gradient_pa_per_km",
+    "u10_mean_mps",
+    "v10_mean_mps",
+    "u10_spread_mps",
+    "v10_spread_mps",
+    "wind850_mean_mps",
+    "vorticity850_s1",
+    "thickness500_850_m",
+    "precip24_mean_mm",
+    "precip24_spread_mm",
+    "run_to_run_mslp_drift_pa",
+    "forecast_initialization_time",
+    "feature_source_time",
+    "valid_time",
+    "lead_day",
+    "season_sin",
+    "season_cos",
+    "e_precip_mm",
+    "e_wind_mps",
+    "e_temperature_k",
+    "e_mslp_pa",
+    "dataset_version",
+    "region_id_semantics"
+  ]
+}

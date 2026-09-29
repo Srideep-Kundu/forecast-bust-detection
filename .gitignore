@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/*.tsbuildinfo
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+!frontend/.env.production.example
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw remote data and downloaded source geometry are never versioned.
+data/cache/
+
+# License-gated scientific payloads remain local. Their small manifests,
+# aggregate JSON reports, and diagnostic provenance stay versionable.
+data/processed/
+data/labeled/
+data/artifacts/
+data/weights/*
+!data/weights/regridding/
+data/weights/regridding/*
+!data/weights/regridding/*.json
+data/geometry/imd_subdivisions.geojson
+data/reports/*.parquet

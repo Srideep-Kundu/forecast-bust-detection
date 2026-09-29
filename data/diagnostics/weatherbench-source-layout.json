@@ -1,0 +1,142 @@
+{
+  "chunk_size_samples": [
+    {
+      "average_compressed_bytes": 40793929.333333336,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 40916690.0,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 30356522.0,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "2m_temperature"
+    },
+    {
+      "average_compressed_bytes": 91499857.33333333,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "geopotential"
+    },
+    {
+      "average_compressed_bytes": 27690576.25,
+      "dataset": "ifs_ens",
+      "sample_chunks": 12,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "average_compressed_bytes": 37701853.166666664,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "total_precipitation_24hr"
+    },
+    {
+      "average_compressed_bytes": 121069108.83333333,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "u_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 122523699.5,
+      "dataset": "ifs_ens",
+      "sample_chunks": 6,
+      "variable": "v_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 806844.5,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 808311.3333333334,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 594047.0,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "2m_temperature"
+    },
+    {
+      "average_compressed_bytes": 1774695.5,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "geopotential"
+    },
+    {
+      "average_compressed_bytes": 546991.5,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 12,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "average_compressed_bytes": 733966.1666666666,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "total_precipitation_24hr"
+    },
+    {
+      "average_compressed_bytes": 2373296.1666666665,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "u_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 2404593.0,
+      "dataset": "ifs_ens_mean",
+      "sample_chunks": 6,
+      "variable": "v_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 817377.2,
+      "dataset": "ifs_hres_t0",
+      "sample_chunks": 5,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 819936.8,
+      "dataset": "ifs_hres_t0",
+      "sample_chunks": 5,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "average_compressed_bytes": 607934.0,
+      "dataset": "ifs_hres_t0",
+      "sample_chunks": 5,
+      "variable": "2m_temperature"
+    },
+    {
+      "average_compressed_bytes": 555279.0,
+      "dataset": "ifs_hres_t0",
+      "sample_chunks": 5,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "average_compressed_bytes": 3739.0,
+      "dataset": "ifs_hres_t0",
+      "sample_chunks": 6,
+      "variable": "total_precipitation_6hr"
+    }
+  ],
+  "compressed_bytes_avoided": 2295301512,
+  "initialization": "2020-06-01T00:00:00.000000000",
+  "new_hybrid_layout": {
+    "compressed_bytes": 960180433,
+    "objects": 104
+  },
+  "old_full_ensemble_layout": {
+    "compressed_bytes": 3255481945,
+    "objects": 80
+  },
+  "reduction_fraction": 0.7050573619446076,
+  "scientific_equivalence": "Official WeatherBench 2 IFS ENS mean on the same 240x121 grid supplies deterministic means; the full 50-member IFS ENS remains the source of all four ensemble-spread features."
+}

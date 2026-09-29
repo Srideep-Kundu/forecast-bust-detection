@@ -1,0 +1,35 @@
+{
+  "canonical_count": 36,
+  "canonical_geojson": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\geometry\\imd_subdivisions.geojson",
+  "canonical_geojson_sha256": "66836544001bc78194f9c5f5492f4b33c79484011bddfbc2a5d56ca9c9b7deea",
+  "crs": "EPSG:4326",
+  "invalid_source_geometries": [
+    {
+      "id": 34,
+      "reason": "Ring Self-intersection[75.5330937289246 11.7526678340488]",
+      "source_name": "Kerala"
+    },
+    {
+      "id": 36,
+      "reason": "Ring Self-intersection[79.7585852850634 11.8681064665446]",
+      "source_name": "Tamil Nadu & Puducherry"
+    }
+  ],
+  "manifest_version": "imd-36-v1",
+  "overlap_tolerance_km2": 5.0,
+  "repair_operation": "shapely.make_valid",
+  "source_commit": "bba99daee85e9742d205c66af92a651a42cf42cd",
+  "source_count": 36,
+  "topology_overlaps": [
+    {
+      "area_km2": 4.063590557693426,
+      "left_id": 18,
+      "right_id": 15
+    },
+    {
+      "area_km2": 2.5040867078350856e-06,
+      "left_id": 3,
+      "right_id": 2
+    }
+  ]
+}

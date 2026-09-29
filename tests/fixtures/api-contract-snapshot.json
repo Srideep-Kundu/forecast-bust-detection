@@ -1,0 +1,12 @@
+{
+  "dataset_version": "wb2-ifs-mean-india-v2",
+  "model_version": "xgb-bust-v2-mean-only",
+  "feature_contract": "mean-only-mvp-v2",
+  "example_run_id": "run-20220930T120000Z",
+  "example_region_id": "imd-01",
+  "example_prediction_id": "xgb-bust-v2-mean-only__20220930T120000Z__imd-01__d01",
+  "example_bust_probability": 0.0013983643651810011,
+  "risk_map_count": 36,
+  "lead_curve_count": 10,
+  "analog_count": 3
+}

@@ -1,0 +1,44 @@
+{
+  "initialization": "2020-06-01T12:00:00.000000000",
+  "lead_hours": [
+    24,
+    48,
+    72,
+    96,
+    120,
+    144,
+    168,
+    192,
+    216,
+    240
+  ],
+  "results": [
+    {
+      "bytes_transferred": 166161456,
+      "cache_misses": 6,
+      "concurrency": 1,
+      "requests": 6,
+      "throughput_bytes_per_second": 3670778.4208895867,
+      "wall_seconds": 45.26600000000326
+    },
+    {
+      "bytes_transferred": 166161456,
+      "cache_misses": 6,
+      "concurrency": 2,
+      "requests": 6,
+      "throughput_bytes_per_second": 2765071.7388051525,
+      "wall_seconds": 60.09299999999348
+    },
+    {
+      "bytes_transferred": 166161456,
+      "cache_misses": 6,
+      "concurrency": 4,
+      "requests": 6,
+      "throughput_bytes_per_second": 3815680.896503384,
+      "wall_seconds": 43.546999999991385
+    }
+  ],
+  "selected_concurrency": 1,
+  "selection_rule": "lowest concurrency within 75% of the best measured throughput",
+  "variable": "mean_sea_level_pressure"
+}

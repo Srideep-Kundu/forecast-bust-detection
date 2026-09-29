@@ -1,0 +1,128 @@
+{
+  "benchmark_reconstruction": {
+    "cache_only_actual_bytes": 0,
+    "cache_only_seconds": 1.1560000000172295,
+    "cache_size_bytes": 1346819,
+    "old_layout_cold_bytes": 3255481945,
+    "optimized_cold_runtime_seconds_estimate": 168.65700000000652,
+    "optimized_layout_cold_bytes": 77563489
+  },
+  "decision": "Mean-only production contract accepted after a zero-raw-member cold benchmark; the restartable corpus build may proceed.",
+  "practical": true,
+  "totals": {
+    "cycles": 1220,
+    "mean_chunk_measured_seconds_per_object": 2.0937624999998663,
+    "projected_cache_bytes": 985257864.0,
+    "projected_compressed_transfer_bytes": 74454723362.0,
+    "projected_runtime_seconds": 124348.6016274923,
+    "projected_uncompressed_source_bytes": 96796592640.0,
+    "raw_chunk_measured_throughput_bytes_per_second": 3495619.6611689352,
+    "unique_source_chunks": 60243
+  },
+  "unique_chunk_projection": [
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 107779680.0,
+      "projected_compressed_transfer_bytes": 5906101740.0,
+      "projected_uncompressed_source_bytes": 6802329600.0,
+      "unique_source_chunks": 7320,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 107779680.0,
+      "projected_compressed_transfer_bytes": 5916838960.0,
+      "projected_uncompressed_source_bytes": 6802329600.0,
+      "unique_source_chunks": 7320,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 107633280.0,
+      "projected_compressed_transfer_bytes": 4348424040.0,
+      "projected_uncompressed_source_bytes": 6802329600.0,
+      "unique_source_chunks": 7320,
+      "variable": "2m_temperature"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 206541120.0,
+      "projected_compressed_transfer_bytes": 12990771060.0,
+      "projected_uncompressed_source_bytes": 20406988800.0,
+      "unique_source_chunks": 7320,
+      "variable": "geopotential"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 108339000.0,
+      "projected_compressed_transfer_bytes": 4020387525.0,
+      "projected_uncompressed_source_bytes": 6830208000.0,
+      "unique_source_chunks": 7350,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 106725600.0,
+      "projected_compressed_transfer_bytes": 5372632340.0,
+      "projected_uncompressed_source_bytes": 6802329600.0,
+      "unique_source_chunks": 7320,
+      "variable": "total_precipitation_24hr"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 108248160.0,
+      "projected_compressed_transfer_bytes": 17372527940.0,
+      "projected_uncompressed_source_bytes": 20406988800.0,
+      "unique_source_chunks": 7320,
+      "variable": "u_component_of_wind"
+    },
+    {
+      "dataset": "ifs_ens_mean",
+      "projected_cache_bytes": 108248160.0,
+      "projected_compressed_transfer_bytes": 17601620760.0,
+      "projected_uncompressed_source_bytes": 20406988800.0,
+      "unique_source_chunks": 7320,
+      "variable": "v_component_of_wind"
+    },
+    {
+      "dataset": "ifs_hres_t0",
+      "projected_cache_bytes": 4785000.0,
+      "projected_compressed_transfer_bytes": 269734476.0,
+      "projected_uncompressed_source_bytes": 306662400.0,
+      "unique_source_chunks": 330,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "dataset": "ifs_hres_t0",
+      "projected_cache_bytes": 4785000.0,
+      "projected_compressed_transfer_bytes": 270579144.0,
+      "projected_uncompressed_source_bytes": 306662400.0,
+      "unique_source_chunks": 330,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "dataset": "ifs_hres_t0",
+      "projected_cache_bytes": 4778400.0,
+      "projected_compressed_transfer_bytes": 200618220.0,
+      "projected_uncompressed_source_bytes": 306662400.0,
+      "unique_source_chunks": 330,
+      "variable": "2m_temperature"
+    },
+    {
+      "dataset": "ifs_hres_t0",
+      "projected_cache_bytes": 4790280.0,
+      "projected_compressed_transfer_bytes": 183242070.0,
+      "projected_uncompressed_source_bytes": 306662400.0,
+      "unique_source_chunks": 330,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "dataset": "ifs_hres_t0",
+      "projected_cache_bytes": 4824504.0,
+      "projected_compressed_transfer_bytes": 1245087.0,
+      "projected_uncompressed_source_bytes": 309450240.0,
+      "unique_source_chunks": 333,
+      "variable": "total_precipitation_6hr"
+    }
+  ]
+}

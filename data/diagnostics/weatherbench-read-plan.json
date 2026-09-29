@@ -1,0 +1,1050 @@
+{
+  "concurrency": 1,
+  "generated_at": "2026-09-25T18:06:29.384723+00:00",
+  "initialization": "2020-06-01T00:00:00.000000000",
+  "lead_hours": 24,
+  "records": [
+    {
+      "actual_bytes_transferred": 27603084,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/mean_sea_level_pressure",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "actual_bytes_transferred": 30305815,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/2m_temperature",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "2m_temperature"
+    },
+    {
+      "actual_bytes_transferred": 40898010,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/10m_u_component_of_wind",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 41092075,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/10m_v_component_of_wind",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 20773188,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/total_precipitation_24hr",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "total_precipitation_24hr"
+    },
+    {
+      "actual_bytes_transferred": 121294362,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        3,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        3,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "level",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "level": {
+          "count": 1,
+          "maximum_index": 2,
+          "minimum_index": 2
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/u_component_of_wind",
+      "theoretical_uncompressed_bytes": 139392000,
+      "variable": "u_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 122719105,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        3,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        3,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "level",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "level": {
+          "count": 1,
+          "maximum_index": 2,
+          "minimum_index": 2
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/v_component_of_wind",
+      "theoretical_uncompressed_bytes": 139392000,
+      "variable": "v_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 91593368,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        3,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        3,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "level",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "level": {
+          "count": 2,
+          "maximum_index": 2,
+          "minimum_index": 0
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 4,
+          "minimum_index": 4
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1764,
+          "minimum_index": 1764
+        }
+      },
+      "role": "current_forecast",
+      "source_chunk_indices": [
+        [
+          1764,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/geopotential",
+      "theoretical_uncompressed_bytes": 139392000,
+      "variable": "geopotential"
+    },
+    {
+      "actual_bytes_transferred": 27626881,
+      "actual_requests": 1,
+      "array_shape": [
+        3652,
+        50,
+        61,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        1,
+        50,
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_ens",
+      "dimensions": [
+        "time",
+        "number",
+        "prediction_timedelta",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "number": {
+          "count": 50,
+          "maximum_index": 49,
+          "minimum_index": 0
+        },
+        "prediction_timedelta": {
+          "count": 1,
+          "maximum_index": 6,
+          "minimum_index": 6
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 1763,
+          "minimum_index": 1763
+        }
+      },
+      "role": "same_valid_time_drift",
+      "source_chunk_indices": [
+        [
+          1763,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr/mean_sea_level_pressure",
+      "theoretical_uncompressed_bytes": 46464000,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "actual_bytes_transferred": 552962,
+      "actual_requests": 1,
+      "array_shape": [
+        10228,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_hres_t0",
+      "dimensions": [
+        "time",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 6456,
+          "minimum_index": 6456
+        }
+      },
+      "role": "verification_state",
+      "source_chunk_indices": [
+        [
+          807,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr/mean_sea_level_pressure",
+      "theoretical_uncompressed_bytes": 929280,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "actual_bytes_transferred": 606358,
+      "actual_requests": 1,
+      "array_shape": [
+        10228,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_hres_t0",
+      "dimensions": [
+        "time",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 6456,
+          "minimum_index": 6456
+        }
+      },
+      "role": "verification_state",
+      "source_chunk_indices": [
+        [
+          807,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr/2m_temperature",
+      "theoretical_uncompressed_bytes": 929280,
+      "variable": "2m_temperature"
+    },
+    {
+      "actual_bytes_transferred": 817884,
+      "actual_requests": 1,
+      "array_shape": [
+        10228,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_hres_t0",
+      "dimensions": [
+        "time",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 6456,
+          "minimum_index": 6456
+        }
+      },
+      "role": "verification_state",
+      "source_chunk_indices": [
+        [
+          807,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr/10m_u_component_of_wind",
+      "theoretical_uncompressed_bytes": 929280,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 823277,
+      "actual_requests": 1,
+      "array_shape": [
+        10228,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_hres_t0",
+      "dimensions": [
+        "time",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "time": {
+          "count": 1,
+          "maximum_index": 6456,
+          "minimum_index": 6456
+        }
+      },
+      "role": "verification_state",
+      "source_chunk_indices": [
+        [
+          807,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 1,
+      "source_zarr_array": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr/10m_v_component_of_wind",
+      "theoretical_uncompressed_bytes": 929280,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "actual_bytes_transferred": 7478,
+      "actual_requests": 2,
+      "array_shape": [
+        10228,
+        240,
+        121
+      ],
+      "chunk_shape": [
+        8,
+        240,
+        121
+      ],
+      "dataset": "ifs_hres_t0",
+      "dimensions": [
+        "time",
+        "longitude",
+        "latitude"
+      ],
+      "dtype": "float32",
+      "india_bounds": {
+        "latitude_max": 38.0,
+        "latitude_min": 6.0,
+        "longitude_max": 98.0,
+        "longitude_min": 68.0
+      },
+      "requested_indices": {
+        "latitude": {
+          "count": 21,
+          "maximum_index": 85,
+          "minimum_index": 65
+        },
+        "longitude": {
+          "count": 20,
+          "maximum_index": 65,
+          "minimum_index": 46
+        },
+        "time": {
+          "count": 4,
+          "maximum_index": 6456,
+          "minimum_index": 6453
+        }
+      },
+      "role": "verification_precipitation",
+      "source_chunk_indices": [
+        [
+          806,
+          0,
+          0
+        ],
+        [
+          807,
+          0,
+          0
+        ]
+      ],
+      "source_chunks_intersected": 2,
+      "source_zarr_array": "gs://weatherbench2/datasets/hres_t0/2016-2022-6h-240x121_equiangular_with_poles_conservative.zarr/total_precipitation_6hr",
+      "theoretical_uncompressed_bytes": 1858560,
+      "variable": "total_precipitation_6hr"
+    }
+  ],
+  "root_cause": "The 1.5-degree IFS ENS arrays use full-global 240x121 spatial chunks, 50 members per chunk, eight leads per chunk, and all three pressure levels per pressure chunk. An India/one-lead selection therefore intersects and transfers complete global source chunks.",
+  "ten_lead_batching_comparison": [
+    {
+      "batched_theoretical_bytes": 278784000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 185856000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 464640000,
+      "variable": "mean_sea_level_pressure"
+    },
+    {
+      "batched_theoretical_bytes": 278784000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 185856000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 464640000,
+      "variable": "2m_temperature"
+    },
+    {
+      "batched_theoretical_bytes": 278784000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 185856000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 464640000,
+      "variable": "10m_u_component_of_wind"
+    },
+    {
+      "batched_theoretical_bytes": 278784000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 185856000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 464640000,
+      "variable": "10m_v_component_of_wind"
+    },
+    {
+      "batched_theoretical_bytes": 278784000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 185856000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 464640000,
+      "variable": "total_precipitation_24hr"
+    },
+    {
+      "batched_theoretical_bytes": 836352000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 557568000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 1393920000,
+      "variable": "u_component_of_wind"
+    },
+    {
+      "batched_theoretical_bytes": 836352000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 557568000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 1393920000,
+      "variable": "v_component_of_wind"
+    },
+    {
+      "batched_theoretical_bytes": 836352000,
+      "batched_unique_chunks": 6,
+      "bytes_avoided_by_batching": 557568000,
+      "individual_lead_theoretical_bytes_without_shared_chunk_cache": 1393920000,
+      "variable": "geopotential"
+    }
+  ],
+  "totals": {
+    "actual_bytes_transferred": 526713847,
+    "actual_requests": 15,
+    "theoretical_uncompressed_bytes": 702535680
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alignment": "identity",
+  "requested_method": "bilinear",
+  "source_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+  "target_grid_sha256": "ff9566a18629e5a22f8df60bd91e97fa06782f99e627f33cd9377895892d3061",
+  "tolerance_degrees": 1e-06,
+  "weight_file": null
+}

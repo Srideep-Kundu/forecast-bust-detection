@@ -1,0 +1,53 @@
+flowchart TB
+    subgraph DATA[Offline data and feature pipeline]
+        WB[WeatherBench 2<br/>IFS ENS mean + HRES] --> SLICE[Atomic checksummed<br/>India source-slice cache]
+        SLICE --> GRID[Coordinate and grid validation]
+        GRID --> REG[Geodesic aggregation to<br/>36 validated IMD subdivisions]
+        REG --> FE[Forecast-safe feature engineering]
+        REG --> ERR[Verification errors<br/>target generation only]
+        ERR --> LAB[Training-fitted robust statistics<br/>and bust labels]
+    end
+
+    subgraph SPLIT[Strict temporal isolation]
+        TR[2018–2020<br/>train] --> PRE[Training-only preprocessing,<br/>thresholds and baselines]
+        TR --> XGB[XGBoost classifier]
+        VA[2021<br/>validation + calibration] --> SEL[Hyperparameter selection]
+        SEL --> XGB
+        XGB --> SCORE[2021 classifier scores]
+        VA --> CAL[Sigmoid calibrator]
+        SCORE --> CAL
+        TE[2022<br/>untouched test] --> EVAL[Held-out evaluation]
+        XGB --> EVAL
+        CAL --> EVAL
+    end
+
+    FE --> TR
+    FE --> VA
+    FE --> TE
+    LAB --> TR
+    LAB --> VA
+    LAB --> TE
+
+    subgraph RUNTIME[Read-only scientific runtime]
+        XGB --> INF[Frozen inference]
+        CAL --> INF
+        INF --> PROB[Calibrated bust probability]
+        PROB --> SHAP[Exact TreeSHAP]
+        PRE --> ANA[2018–2020 historical analog index]
+        PROB --> ANA
+        SHAP --> EV[Deterministic evidence]
+        ANA --> EV
+        PROB --> API[FastAPI]
+        EV --> API
+        API --> UI[React + Carbon dashboard]
+    end
+
+    EV -. typed allowlist only .-> COP[Optional GenAI Copilot]
+    COP -. grounded explanation .-> UI
+
+    classDef train fill:#d6e4ff,stroke:#0f62fe,color:#161616;
+    classDef heldout fill:#fff1f1,stroke:#da1e28,color:#161616;
+    classDef optional fill:#f4f4f4,stroke:#8d8d8d,color:#161616,stroke-dasharray:5 5;
+    class TR,VA,PRE,XGB,SEL,SCORE,CAL train;
+    class TE,EVAL heldout;
+    class COP optional;

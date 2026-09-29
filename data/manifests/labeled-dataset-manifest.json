@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-09-28T11:17:59.935058+00:00",
+  "label_artifact": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\artifacts\\label-transform.json",
+  "label_artifact_sha256": "5a8a0ece6e142fbb7c8c3fa30df52235b760fe4aaad3337ef141ece98102e610",
+  "partitions": [
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2018\\month=06\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "66442344f0708ee1a27c5b625125ab0d724047ec83e01ba801d592079fa58c6c"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2018\\month=07\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "e908627d3b3cb64834cd79729e065805d9af3f2a83473781e8139eb345ec1af9"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2018\\month=08\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "dcf61db378053f3585451cb9ecab9845c24a67a9ff890d519ff5894153c472ac"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2018\\month=09\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "39be7e7059841bc6f7508381f6b5e7572a11ea2073c15ed14ebe6d6db70f6427"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2019\\month=06\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "c2991457738d4f9b136c422c6e5fb9a7ca9cbfd32b6c39f9d3ba2e6beb2e6622"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2019\\month=07\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "fd4ddba32645bddae48110f191491d5614a16183bd7287e88e8de2c8521f9bf3"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2019\\month=08\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "cc4351ea0d51dd5227a2b815c39069b4eaeaff50b4ef3d725e4b1507a23dc869"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2019\\month=09\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "cd27b611ddc9be4161e975f193074117cf97c14b5a174a65004f261399b6b496"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2020\\month=06\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "f37caf6c9a6a58477be4a24a360a9c659c2cccc60addbf956ccccb828aeeeae8"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2020\\month=07\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "4a486b35f05e27667f54aead2379cefe2407b77e80be99d48f6fcf340889a4ae"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2020\\month=08\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "17a45d25527611caecab386a3a260690d3432dcc81ed040fb40e9f4ae9fae2a1"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2020\\month=09\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "cedab7a9886e759302dadf17d086b5a3da70a488ed83a6f35845955c9ee78639"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2021\\month=06\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "0223810d30033d38db5adcc81ea51283c1a622001674eb47f1a880124fd9aa50"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2021\\month=07\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "8733a667b5b856595f8f690de66701421f55fcdad609fd9d04e4bf3e8229e12a"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2021\\month=08\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "b70632c3ee22af4c57b56eee45f874fea7fe66d7e7a3d35b14275a93621f557d"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2021\\month=09\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "f3c734f820b3690717db819868f0bf81e5085f4b1054336ff89cb7d090188e9c"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2022\\month=06\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "db12117818596814be9e26de7523242e6ae42660cf800a59a0c152c1a6a504df"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2022\\month=07\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "90f05123154cb049a0c45ebb68d55fa2f1709745960ddd93ac4780495c3c7c01"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2022\\month=08\\labeled.parquet",
+      "rows": 22320,
+      "sha256": "1eeb4648db482c2d9acbb8fb5b07240854da6d11f86edf70e2a8dfe90a4c4442"
+    },
+    {
+      "path": "C:\\Users\\Srideep Kundu\\Desktop\\Weather_Project\\data\\labeled\\year=2022\\month=09\\labeled.parquet",
+      "rows": 21600,
+      "sha256": "c6040963e21a2d27d63963f2892e97ee8265839909f883956c93e03d4276de8f"
+    }
+  ],
+  "prevalence_by_year": [
+    {
+      "_year": 2018,
+      "bust_prevalence": 0.12188069216757741,
+      "rows": 87840
+    },
+    {
+      "_year": 2019,
+      "bust_prevalence": 0.1635928961748634,
+      "rows": 87840
+    },
+    {
+      "_year": 2020,
+      "bust_prevalence": 0.16534608378870674,
+      "rows": 87840
+    },
+    {
+      "_year": 2021,
+      "bust_prevalence": 0.11995673952641166,
+      "rows": 87840
+    },
+    {
+      "_year": 2022,
+      "bust_prevalence": 0.16631375227686704,
+      "rows": 87840
+    }
+  ],
+  "row_count": 439200
+}

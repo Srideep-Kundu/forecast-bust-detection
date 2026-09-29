@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: forecast-bust-api
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeployTrigger: off
+    healthCheckPath: /health
+    envVars:
+      - key: FORECAST_BUST_DATA_ROOT
+        sync: false
+      - key: FORECAST_BUST_CORS_ORIGINS
+        sync: false
+      - key: COPILOT_CACHE_PATH
+        value: /tmp/forecast-bust-copilot.sqlite
+      - key: LLM_ENABLED
+        value: "false"
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: LLM_MODEL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: COPILOT_PROMPT_VERSION
+        value: copilot-v1
+      - key: COPILOT_TIMEOUT_SECONDS
+        value: "8"
+      - key: COPILOT_OUTPUT_TOKEN_LIMIT
+        value: "500"
+      - key: COPILOT_RATE_LIMIT_PER_MINUTE
+        value: "10"
+      - key: COPILOT_CACHE_MAX_ENTRIES
+        value: "500"

@@ -1,0 +1,374 @@
+{
+  "configurations": {
+    "current-full-spread": {
+      "cache_derived_wall_seconds": 1.577999999979511,
+      "cache_size_bytes": 17538221,
+      "cold_bytes_per_initialization": 960180433,
+      "configuration_sha256": "a40ce9ba7887c2312b9484f2e3b33a9bcc290cc8f1defc97373e8bcf7de0d039",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1391177728,
+      "projected_full_cache_bytes": 20705806344.0,
+      "projected_full_runtime_seconds": 423675.4470325669,
+      "projected_full_transfer_bytes": 1151249040212.0,
+      "remote_objects_per_initialization": 104,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "mslp_spread_pa",
+        "precip24_mean_mm",
+        "precip24_spread_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "u10_spread_mps",
+        "v10_mean_mps",
+        "v10_spread_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": [
+        "precip",
+        "mslp",
+        "wind"
+      ]
+    },
+    "mean-only": {
+      "cache_derived_wall_seconds": 1.2960000000020955,
+      "cache_size_bytes": 1346739,
+      "cold_bytes_per_initialization": 77563489,
+      "configuration_sha256": "b8edaa52fc352480d65fc9e47c84a61f8a63bb119eb8802d86764d67122b9906",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1376468992,
+      "projected_full_cache_bytes": 985257864.0,
+      "projected_full_runtime_seconds": 115634.40675248107,
+      "projected_full_transfer_bytes": 74454723362.0,
+      "remote_objects_per_initialization": 80,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "precip24_mean_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "v10_mean_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": []
+    },
+    "mean-plus-minimal-spread": {
+      "cache_derived_wall_seconds": 1.3289999999979045,
+      "cache_size_bytes": 5393936,
+      "cold_bytes_per_initialization": 303774608,
+      "configuration_sha256": "40f75d2c0b7688e1098fff4e6088213f8388ef2abe12dba39b4e22134b341506",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1382531072,
+      "projected_full_cache_bytes": 5914575144.0,
+      "projected_full_runtime_seconds": 194583.9470144537,
+      "projected_full_transfer_bytes": 350432288542.0,
+      "remote_objects_per_initialization": 86,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "precip24_mean_mm",
+        "precip24_spread_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "v10_mean_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": [
+        "precip"
+      ]
+    },
+    "mean-plus-precip-spread": {
+      "cache_derived_wall_seconds": 1.2189999999827705,
+      "cache_size_bytes": 5393936,
+      "cold_bytes_per_initialization": 303774608,
+      "configuration_sha256": "6079fefa5c4dffc16904fae0b2b05a4dc68339a5970cdf2bcd9ce39306f0f2ea",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1382830080,
+      "projected_full_cache_bytes": 5914575144.0,
+      "projected_full_runtime_seconds": 194583.9470144537,
+      "projected_full_transfer_bytes": 350432288542.0,
+      "remote_objects_per_initialization": 86,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "precip24_mean_mm",
+        "precip24_spread_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "v10_mean_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": [
+        "precip"
+      ]
+    },
+    "precip-plus-mslp-spread": {
+      "cache_derived_wall_seconds": 1.3589999999967404,
+      "cache_size_bytes": 9442075,
+      "cold_bytes_per_initialization": 469916717,
+      "configuration_sha256": "e60a0d4492936253bbdfd7ff10b3dc24d3ccd0bd1378e8735c3040b0ce5aa61c",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1384402944,
+      "projected_full_cache_bytes": 10845063624.0,
+      "projected_full_runtime_seconds": 252569.37958357332,
+      "projected_full_transfer_bytes": 553127306692.0,
+      "remote_objects_per_initialization": 92,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "mslp_spread_pa",
+        "precip24_mean_mm",
+        "precip24_spread_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "v10_mean_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": [
+        "precip",
+        "mslp"
+      ]
+    },
+    "precip-plus-temperature-spread": {
+      "cache_measurement": "not downloaded; transfer benchmark only",
+      "cold_bytes_per_initialization": 485913740,
+      "configuration_sha256": "4b32e6b03c4990af6f06ea73da6d17afb4b1b1f1253632b7c1691bb755fcdb06",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "projected_full_cache_bytes": 10844478024.0,
+      "projected_full_runtime_seconds": 258152.0014880039,
+      "projected_full_transfer_bytes": 572642029582.0,
+      "remote_objects_per_initialization": 92,
+      "spread_features": [
+        "precip",
+        "temperature"
+      ]
+    },
+    "precip-plus-wind-spread": {
+      "cache_derived_wall_seconds": 1.437000000005355,
+      "cache_size_bytes": 13490082,
+      "cold_bytes_per_initialization": 794038324,
+      "configuration_sha256": "a7fd35de578b58f31a731498be5317aa1cda90bbcff551c47ef01fdb8309609b",
+      "derived_rows": 360,
+      "measurement_basis": "Exact compressed GCS object sizes for the reference initialization; full-corpus values deduplicate source chunks and use measured throughput.",
+      "peak_rss_bytes": 1385541632,
+      "projected_full_cache_bytes": 15775317864.0,
+      "projected_full_runtime_seconds": 365690.01446344727,
+      "projected_full_transfer_bytes": 948554022062.0,
+      "remote_objects_per_initialization": 98,
+      "scientific_features_produced": [
+        "dataset_version",
+        "e_mslp_pa",
+        "e_precip_mm",
+        "e_temperature_k",
+        "e_wind_mps",
+        "feature_source_time",
+        "forecast_initialization_time",
+        "lead_day",
+        "mslp_gradient_pa_per_km",
+        "mslp_mean_pa",
+        "precip24_mean_mm",
+        "precip24_spread_mm",
+        "region_id_semantics",
+        "run_to_run_mslp_drift_pa",
+        "season_cos",
+        "season_sin",
+        "thickness500_850_m",
+        "u10_mean_mps",
+        "u10_spread_mps",
+        "v10_mean_mps",
+        "v10_spread_mps",
+        "valid_time",
+        "vorticity850_s1",
+        "wind850_mean_mps"
+      ],
+      "spread_features": [
+        "precip",
+        "wind"
+      ]
+    }
+  },
+  "full_corpus_started": false,
+  "initialization": "2020-06-01T00:00:00.000000000",
+  "metadata_refresh": "reused verified measurements because remote catalog metadata was temporarily unavailable",
+  "official_catalog_finding": "The public IFS ENS catalog contains full-member and mean products at the relevant resolutions, but no variance or standard-deviation product.",
+  "official_precomputed_spread_product": null,
+  "provenance": {
+    "ensemble_mean": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative_mean.zarr",
+    "raw_members_for_enabled_spreads_only": "gs://weatherbench2/datasets/ifs_ens/2018-2022-240x121_equiangular_with_poles_conservative.zarr"
+  },
+  "recommendation": {
+    "configuration": null,
+    "full_corpus_practical": false,
+    "lowest_transfer_scientifically_defensible_candidate": "mean-plus-minimal-spread",
+    "proposed_removals_from_current_contract": [
+      "mslp",
+      "wind"
+    ],
+    "reason": "Precipitation-only is the best scientific compromise and eliminates three raw-member arrays, but its projected 350 GB and 2.25-day acquisition still fails the hackathon practicality gate. No tested configuration both retains true spread and is practical on this workstation.",
+    "required_document_changes": {
+      "agents.md": "For the preferred reduced contract, forbid raw-member reads except total_precipitation_24hr and require a synchronized schema/model artifact version change.",
+      "flow.md": "Show raw 50-member access only for total_precipitation_24hr spread, while all deterministic fields continue through the official IFS ENS mean product.",
+      "prd.md": "Change the P0 forecast-feature contract from precipitation, MSLP, and 10 m component spreads to precipitation spread only; identify MSLP and wind spread removal as an acquisition trade-off.",
+      "tech.md": "Remove mslp_spread_pa, u10_spread_mps, and v10_spread_mps from the preferred derived schema and model feature list; retain precip24_spread_mm and revise the ensemble-spread baseline inputs."
+    },
+    "requires_four_document_contract_update_before_adoption": true,
+    "retained_true_spread_features": [
+      "precip"
+    ]
+  },
+  "spread_feature_audit": [
+    {
+      "bytes_per_initialization": 226211119,
+      "cheaper_scientifically_equivalent_true_spread": null,
+      "chunk_overlap": "Ten leads are batched into six shared lead chunks; there is no cross-variable chunk overlap, so this feature's variable reads are fully incremental.",
+      "chunks_per_initialization": 6,
+      "incremental_cache_bytes_per_initialization": 4047197,
+      "pressure_level_hpa": null,
+      "raw_source_variables": [
+        "total_precipitation_24hr"
+      ],
+      "required_by_current_spec": true,
+      "safe_non_spread_proxies": [
+        "run-to-run drift",
+        "regional precipitation magnitude",
+        "lead day"
+      ],
+      "scientific_justification": "Direct ensemble disagreement in 24-hour accumulated precipitation, the highest-weight target-error component.",
+      "spread_feature": "precip"
+    },
+    {
+      "bytes_per_initialization": 182139132,
+      "cheaper_scientifically_equivalent_true_spread": null,
+      "chunk_overlap": "Ten leads are batched into six shared lead chunks; there is no cross-variable chunk overlap, so this feature's variable reads are fully incremental.",
+      "chunks_per_initialization": 6,
+      "incremental_cache_bytes_per_initialization": 4047668,
+      "pressure_level_hpa": null,
+      "raw_source_variables": [
+        "2m_temperature"
+      ],
+      "required_by_current_spec": false,
+      "safe_non_spread_proxies": [
+        "run-to-run drift",
+        "spatial gradient strength",
+        "lead day"
+      ],
+      "scientific_justification": "Direct ensemble disagreement in near-surface temperature; useful but not required by the current feature contract.",
+      "spread_feature": "temperature"
+    },
+    {
+      "bytes_per_initialization": 166142109,
+      "cheaper_scientifically_equivalent_true_spread": null,
+      "chunk_overlap": "Ten leads are batched into six shared lead chunks; there is no cross-variable chunk overlap, so this feature's variable reads are fully incremental.",
+      "chunks_per_initialization": 6,
+      "incremental_cache_bytes_per_initialization": 4048139,
+      "pressure_level_hpa": null,
+      "raw_source_variables": [
+        "mean_sea_level_pressure"
+      ],
+      "required_by_current_spec": true,
+      "safe_non_spread_proxies": [
+        "run-to-run drift",
+        "spatial gradient strength",
+        "lead day"
+      ],
+      "scientific_justification": "Synoptic-scale pressure uncertainty and a current specified spread input.",
+      "spread_feature": "mslp"
+    },
+    {
+      "bytes_per_initialization": 490263716,
+      "cheaper_scientifically_equivalent_true_spread": null,
+      "chunk_overlap": "Ten leads are batched into six shared lead chunks; there is no cross-variable chunk overlap, so this feature's variable reads are fully incremental.",
+      "chunks_per_initialization": 12,
+      "incremental_cache_bytes_per_initialization": 8096146,
+      "pressure_level_hpa": null,
+      "raw_source_variables": [
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind"
+      ],
+      "required_by_current_spec": true,
+      "safe_non_spread_proxies": [
+        "run-to-run drift",
+        "spatial gradient strength",
+        "lead day"
+      ],
+      "scientific_justification": "Vector-component uncertainty from both 10 m wind components and a current specified spread input.",
+      "spread_feature": "wind"
+    }
+  ]
+}
