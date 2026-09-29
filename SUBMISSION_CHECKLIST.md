@@ -14,7 +14,7 @@
 
 - [ ] PPT finalized
 - [ ] Demo video recorded and reviewed
-- [ ] Public/private repository link created as permitted by licenses
+- [x] Private repository link created; keep private until redistribution permissions are confirmed
 - [ ] Deployment or judge-accessible demo link verified
 - [ ] SIH abstract entered in the submission portal
 - [ ] Team member names, roles, and contact details verified
