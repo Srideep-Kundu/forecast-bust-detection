@@ -20,6 +20,8 @@ COPY --from=builder /wheels /wheels
 RUN python -m pip install --no-cache-dir --no-index --find-links=/wheels forecast-bust && rm -rf /wheels
 
 WORKDIR /app
+COPY data ./data
+RUN chown -R forecast:forecast /app/data
 USER forecast
 EXPOSE 10000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
