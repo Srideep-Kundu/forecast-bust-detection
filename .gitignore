@@ -39,5 +39,4 @@ data/weights/*
 !data/weights/regridding/
 data/weights/regridding/*
 !data/weights/regridding/*.json
-data/geometry/imd_subdivisions.geojson
 data/reports/*.parquet
